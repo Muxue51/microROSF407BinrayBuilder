@@ -2,6 +2,8 @@
 
 这个repo可以帮助大家使用`Github Actions`来自动化编译`microROS`库。不再需要在本地搭建`Docker`编译环境！
 
+更新： 目前CI已修改为从Github Actions的artifact处下载构建产物了！无需release权限了
+
 # 目录结构
 
 ```
@@ -153,6 +155,10 @@ fi
 ### 3. 将代码推送到 `GitHub`
 
 ## 4. 配置权限&开始编译
+
+更新： 目前CI已修改为从Github Actions的artifact处下载构建产物了！无需release权限了
+
+下面的内容不用看了~
 
 ### 1. 配置权限
 
